@@ -26,8 +26,8 @@ package pack1;
     `include "uvm_macros.svh"
     class my_sequence_item extends uvm_sequence_item;
         `uvm_object_utils(my_sequence_item)
-        rand bit[127:0] in;
-        rand bit[127:0] key;
+        randc bit[127:0] in;
+        randc bit[127:0] key;
         bit [127:0]     out;
         function new(string name = "my_sequence_item");
             super.new(name);
@@ -48,9 +48,12 @@ package pack1;
         endtask
 
         task body;
-            repeat(4) begin
+            repeat(50) begin
             start_item(seq_item);
-                assert (seq_item.randomize())
+                assert (seq_item.randomize() with {
+                    in  inside {[128'h00000000000000000000000000000000: 128'hefffffffffffffffffffffffffffffff]};
+                    key inside {[128'h00000000000000000000000000000000: 128'hefffffffffffffffffffffffffffffff]};
+                 });
             finish_item(seq_item);                
             end
         endtask
@@ -70,9 +73,12 @@ package pack1;
         endtask
 
         task body;
-            repeat(4) begin
+          repeat(50) begin
             start_item(seq_item);
-                assert (seq_item.randomize() )
+                assert (seq_item.randomize() with {
+                    in  inside {[128'hf0000000000000000000000000000000: 128'hffffffffffffffffffffffffffffffff]};
+                    key inside {[128'hf0000000000000000000000000000000: 128'hffffffffffffffffffffffffffffffff]};
+                 });
             finish_item(seq_item);                
             end
         endtask
@@ -294,8 +300,17 @@ package pack1;
     class my_subscriber extends uvm_subscriber #(my_sequence_item);
         `uvm_component_utils(my_subscriber)
         my_sequence_item seq_item;
+
+
+        covergroup covGrp;
+            option.auto_bin_max = 10;
+            key: coverpoint seq_item.key;
+            in: coverpoint seq_item.in;
+
+        endgroup
         function new(string name = "my_subscriber", uvm_component parent = null);
             super.new(name,parent);
+            covGrp = new();
         endfunction
 
         function void build_phase(uvm_phase phase);
@@ -316,6 +331,8 @@ package pack1;
         
         function void write(my_sequence_item t);
             $display("subscriber: in=[%032h],key=[%032h],out=[%032h]",t.in,t.key,t.out);
+            seq_item = t;
+            covGrp.sample();
         endfunction
     endclass
 
