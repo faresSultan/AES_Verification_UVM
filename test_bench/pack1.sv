@@ -29,7 +29,7 @@ package pack1;
         endfunction
 
     endclass
-
+// =============================== Sequences ===============================
     class my_sequence1 extends uvm_sequence #(my_sequence_item);
         `uvm_object_utils(my_sequence1)
         my_sequence_item seq_item;
@@ -74,6 +74,7 @@ package pack1;
 
     endclass
 
+// =============================== Driver ===============================
     class my_driver extends uvm_driver #(my_sequence_item);
         `uvm_component_utils(my_driver)
         my_sequence_item seq_item;
@@ -113,6 +114,7 @@ package pack1;
         endtask
     endclass
 
+// =============================== Monitor ===============================
     class my_monitor extends uvm_monitor;
         `uvm_component_utils(my_monitor)
         my_sequence_item seq_item;
@@ -154,6 +156,7 @@ package pack1;
         endtask
     endclass
 
+// =============================== Sequencer ===============================
     class my_sequencer extends uvm_sequencer #(my_sequence_item);
         `uvm_component_utils(my_sequencer)
         my_sequence_item seq_item;
@@ -178,6 +181,7 @@ package pack1;
         endtask
     endclass
 
+// =============================== Agent ===============================
     class my_agent extends uvm_agent;
         `uvm_component_utils(my_agent)
         my_driver     drvr; 
@@ -216,6 +220,7 @@ package pack1;
         endtask
     endclass
 
+// =============================== Scoreboard ===============================
     class my_scoreboard extends uvm_scoreboard;
         `uvm_component_utils(my_scoreboard)
         my_sequence_item seq_item;
@@ -280,6 +285,7 @@ package pack1;
         endtask
     endclass
 
+// =============================== Subscriber ===============================
     class my_subscriber extends uvm_subscriber #(my_sequence_item);
         `uvm_component_utils(my_subscriber)
         my_sequence_item seq_item;
@@ -308,6 +314,7 @@ package pack1;
         endfunction
     endclass
 
+// =============================== Env ===============================
     class my_env extends uvm_env;
         `uvm_component_utils(my_env)
         my_subscriber sub ; 
@@ -344,6 +351,7 @@ package pack1;
         endtask
     endclass
 
+// =============================== Test ===============================
     class my_test extends uvm_test;
         `uvm_component_utils(my_test)
          
