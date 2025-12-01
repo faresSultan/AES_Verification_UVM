@@ -3110,3 +3110,512 @@ do test_bench/run.do
 #    Time: 8 ns  Iteration: 60  Instance: /top_level
 # 1
 # Break in Task uvm_pkg/uvm_root::run_test at /home/fares-sultan/Downloads/questasim/linux_x86_64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh line 430
+do test_bench/run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# QuestaSim-64 vlog 2021.2_1 Compiler 2021.05 May 15 2021
+# Start time: 15:47:54 on Dec 01,2025
+# vlog -reportprogress 300 AES_Verilog_main/AES.v AES_Verilog_main/AES_Decrypt.v AES_Verilog_main/AES_Decrypt_tb.v AES_Verilog_main/AES_Encrypt.v AES_Verilog_main/AES_Encrypt_tb.v AES_Verilog_main/AES_tb.v AES_Verilog_main/addRoundKey.v AES_Verilog_main/addRoundKey_tb.v AES_Verilog_main/decryptRound.v AES_Verilog_main/encryptRound.v AES_Verilog_main/inverseMixColumns.v AES_Verilog_main/inverseMixColumns_tb.v AES_Verilog_main/inverseSbox.v AES_Verilog_main/inverseShiftRows.v AES_Verilog_main/inverseShiftRows_tb.v AES_Verilog_main/inverseSubBytes.v AES_Verilog_main/inverseSubBytes_tb.v AES_Verilog_main/keyExpansion.v AES_Verilog_main/keyExpansion_tb.v AES_Verilog_main/mixColumns.v AES_Verilog_main/mixColumns_tb.v AES_Verilog_main/sbox.v AES_Verilog_main/shiftRows.v AES_Verilog_main/shiftRows_tb.v AES_Verilog_main/subBytes.v AES_Verilog_main/subBytes_tb.v 
+# -- Compiling module AES
+# -- Compiling module AES_Decrypt
+# -- Compiling module AES_Decrypt_tb
+# -- Compiling module AES_Encrypt
+# -- Compiling module AES_Encrypt_tb
+# -- Compiling module AES_tb
+# -- Compiling module addRoundKey
+# -- Compiling module addRoundKey_tb
+# -- Compiling module decryptRound
+# -- Compiling module encryptRound
+# -- Compiling module inverseMixColumns
+# -- Compiling module inverseMixColumns_tb
+# -- Compiling module inverseSbox
+# -- Compiling module inverseShiftRows
+# -- Compiling module inverseShiftRows_tb
+# -- Compiling module inverseSubBytes
+# -- Compiling module inverseSubBytes_tb
+# -- Compiling module keyExpansion
+# -- Compiling module keyExpansion_tb
+# -- Compiling module mixColumns
+# -- Compiling module mixColumns_tb
+# -- Compiling module sbox
+# -- Compiling module shiftRows
+# -- Compiling module shiftRows_tb
+# -- Compiling module subBytes
+# -- Compiling module subBytes_tb
+# 
+# Top level modules:
+# 	AES_Decrypt_tb
+# 	AES_Encrypt_tb
+# 	AES_tb
+# 	addRoundKey_tb
+# 	inverseMixColumns_tb
+# 	inverseShiftRows_tb
+# 	inverseSubBytes_tb
+# 	keyExpansion_tb
+# 	mixColumns_tb
+# 	shiftRows_tb
+# 	subBytes_tb
+# End time: 15:47:55 on Dec 01,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.2_1 Compiler 2021.05 May 15 2021
+# Start time: 15:47:55 on Dec 01,2025
+# vlog -reportprogress 300 test_bench/pack1.sv test_bench/top.sv 
+# -- Compiling interface AES_intf
+# -- Compiling package pack1
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+# ** Note: (vlog-2286) test_bench/pack1.sv(21): Using implicit +incdir+/home/fares-sultan/Downloads/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+# -- Compiling module top_level
+# -- Importing package pack1
+# ** Error: (vlog-13069) test_bench/top.sv(6): near "(": syntax error, unexpected '(', expecting ';'.
+# End time: 15:47:55 on Dec 01,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /home/fares-sultan/Downloads/questasim/linux_x86_64/vlog failed.
+# Error in macro ./test_bench/run.do line 3
+# /home/fares-sultan/Downloads/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog test_bench/*.sv"
+do test_bench/run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# QuestaSim-64 vlog 2021.2_1 Compiler 2021.05 May 15 2021
+# Start time: 15:48:30 on Dec 01,2025
+# vlog -reportprogress 300 AES_Verilog_main/AES.v AES_Verilog_main/AES_Decrypt.v AES_Verilog_main/AES_Decrypt_tb.v AES_Verilog_main/AES_Encrypt.v AES_Verilog_main/AES_Encrypt_tb.v AES_Verilog_main/AES_tb.v AES_Verilog_main/addRoundKey.v AES_Verilog_main/addRoundKey_tb.v AES_Verilog_main/decryptRound.v AES_Verilog_main/encryptRound.v AES_Verilog_main/inverseMixColumns.v AES_Verilog_main/inverseMixColumns_tb.v AES_Verilog_main/inverseSbox.v AES_Verilog_main/inverseShiftRows.v AES_Verilog_main/inverseShiftRows_tb.v AES_Verilog_main/inverseSubBytes.v AES_Verilog_main/inverseSubBytes_tb.v AES_Verilog_main/keyExpansion.v AES_Verilog_main/keyExpansion_tb.v AES_Verilog_main/mixColumns.v AES_Verilog_main/mixColumns_tb.v AES_Verilog_main/sbox.v AES_Verilog_main/shiftRows.v AES_Verilog_main/shiftRows_tb.v AES_Verilog_main/subBytes.v AES_Verilog_main/subBytes_tb.v 
+# -- Compiling module AES
+# -- Compiling module AES_Decrypt
+# -- Compiling module AES_Decrypt_tb
+# -- Compiling module AES_Encrypt
+# -- Compiling module AES_Encrypt_tb
+# -- Compiling module AES_tb
+# -- Compiling module addRoundKey
+# -- Compiling module addRoundKey_tb
+# -- Compiling module decryptRound
+# -- Compiling module encryptRound
+# -- Compiling module inverseMixColumns
+# -- Compiling module inverseMixColumns_tb
+# -- Compiling module inverseSbox
+# -- Compiling module inverseShiftRows
+# -- Compiling module inverseShiftRows_tb
+# -- Compiling module inverseSubBytes
+# -- Compiling module inverseSubBytes_tb
+# -- Compiling module keyExpansion
+# -- Compiling module keyExpansion_tb
+# -- Compiling module mixColumns
+# -- Compiling module mixColumns_tb
+# -- Compiling module sbox
+# -- Compiling module shiftRows
+# -- Compiling module shiftRows_tb
+# -- Compiling module subBytes
+# -- Compiling module subBytes_tb
+# 
+# Top level modules:
+# 	AES_Decrypt_tb
+# 	AES_Encrypt_tb
+# 	AES_tb
+# 	addRoundKey_tb
+# 	inverseMixColumns_tb
+# 	inverseShiftRows_tb
+# 	inverseSubBytes_tb
+# 	keyExpansion_tb
+# 	mixColumns_tb
+# 	shiftRows_tb
+# 	subBytes_tb
+# End time: 15:48:30 on Dec 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.2_1 Compiler 2021.05 May 15 2021
+# Start time: 15:48:30 on Dec 01,2025
+# vlog -reportprogress 300 test_bench/pack1.sv test_bench/top.sv 
+# -- Compiling interface AES_intf
+# -- Compiling package pack1
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+# ** Note: (vlog-2286) test_bench/pack1.sv(21): Using implicit +incdir+/home/fares-sultan/Downloads/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+# -- Compiling module top_level
+# -- Importing package pack1
+# ** Error: test_bench/top.sv(6): 'AES_intf' is an unknown type.
+# Or did you omit the '()' for an instantiation?
+# End time: 15:48:30 on Dec 01,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /home/fares-sultan/Downloads/questasim/linux_x86_64/vlog failed.
+# Error in macro ./test_bench/run.do line 3
+# /home/fares-sultan/Downloads/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog test_bench/*.sv"
+do test_bench/run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# QuestaSim-64 vlog 2021.2_1 Compiler 2021.05 May 15 2021
+# Start time: 15:50:47 on Dec 01,2025
+# vlog -reportprogress 300 AES_Verilog_main/AES.v AES_Verilog_main/AES_Decrypt.v AES_Verilog_main/AES_Decrypt_tb.v AES_Verilog_main/AES_Encrypt.v AES_Verilog_main/AES_Encrypt_tb.v AES_Verilog_main/AES_tb.v AES_Verilog_main/addRoundKey.v AES_Verilog_main/addRoundKey_tb.v AES_Verilog_main/decryptRound.v AES_Verilog_main/encryptRound.v AES_Verilog_main/inverseMixColumns.v AES_Verilog_main/inverseMixColumns_tb.v AES_Verilog_main/inverseSbox.v AES_Verilog_main/inverseShiftRows.v AES_Verilog_main/inverseShiftRows_tb.v AES_Verilog_main/inverseSubBytes.v AES_Verilog_main/inverseSubBytes_tb.v AES_Verilog_main/keyExpansion.v AES_Verilog_main/keyExpansion_tb.v AES_Verilog_main/mixColumns.v AES_Verilog_main/mixColumns_tb.v AES_Verilog_main/sbox.v AES_Verilog_main/shiftRows.v AES_Verilog_main/shiftRows_tb.v AES_Verilog_main/subBytes.v AES_Verilog_main/subBytes_tb.v 
+# -- Compiling module AES
+# -- Compiling module AES_Decrypt
+# -- Compiling module AES_Decrypt_tb
+# -- Compiling module AES_Encrypt
+# -- Compiling module AES_Encrypt_tb
+# -- Compiling module AES_tb
+# -- Compiling module addRoundKey
+# -- Compiling module addRoundKey_tb
+# -- Compiling module decryptRound
+# -- Compiling module encryptRound
+# -- Compiling module inverseMixColumns
+# -- Compiling module inverseMixColumns_tb
+# -- Compiling module inverseSbox
+# -- Compiling module inverseShiftRows
+# -- Compiling module inverseShiftRows_tb
+# -- Compiling module inverseSubBytes
+# -- Compiling module inverseSubBytes_tb
+# -- Compiling module keyExpansion
+# -- Compiling module keyExpansion_tb
+# -- Compiling module mixColumns
+# -- Compiling module mixColumns_tb
+# -- Compiling module sbox
+# -- Compiling module shiftRows
+# -- Compiling module shiftRows_tb
+# -- Compiling module subBytes
+# -- Compiling module subBytes_tb
+# 
+# Top level modules:
+# 	AES_Decrypt_tb
+# 	AES_Encrypt_tb
+# 	AES_tb
+# 	addRoundKey_tb
+# 	inverseMixColumns_tb
+# 	inverseShiftRows_tb
+# 	inverseSubBytes_tb
+# 	keyExpansion_tb
+# 	mixColumns_tb
+# 	shiftRows_tb
+# 	subBytes_tb
+# End time: 15:50:47 on Dec 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.2_1 Compiler 2021.05 May 15 2021
+# Start time: 15:50:47 on Dec 01,2025
+# vlog -reportprogress 300 test_bench/pack1.sv test_bench/top.sv 
+# -- Compiling interface AES_intf
+# -- Compiling package pack1
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+# ** Note: (vlog-2286) test_bench/pack1.sv(21): Using implicit +incdir+/home/fares-sultan/Downloads/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+# -- Compiling module top_level
+# -- Importing package pack1
+# 
+# Top level modules:
+# 	top_level
+# End time: 15:50:48 on Dec 01,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 15:50:52 on Dec 01,2025, Elapsed time: 0:12:43
+# Errors: 2, Warnings: 2
+# vsim -voptargs="+acc" work.top_level 
+# Start time: 15:50:52 on Dec 01,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.AES_intf(fast)
+# Loading mtiUvm.uvm_pkg(fast)
+# Loading work.pack1(fast)
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ns  Iteration: 0  Region: /pack1::my_scoreboard::write File: test_bench/pack1.sv Line: 275
+# Loading mtiUvm.questa_uvm_pkg(fast)
+# Loading work.top_level(fast)
+# Loading work.AES_intf(fast__2)
+# Loading work.AES_Encrypt(fast)
+# Loading work.keyExpansion(fast)
+# Loading work.addRoundKey(fast)
+# Loading work.encryptRound(fast)
+# Loading work.subBytes(fast)
+# Loading work.sbox(fast)
+# Loading work.shiftRows(fast)
+# Loading work.mixColumns(fast)
+# Loading /home/fares-sultan/Downloads/questasim/uvm-1.1d/linux_x86_64/uvm_dpi.so
+# ** Warning: (vsim-8806) Task "write" is being called in function "write".
+#    Time: 0 ns  Iteration: 0  Instance: /top_level File: /home/fares-sultan/Downloads/questasim/linux_x86_64/../verilog_src/uvm-1.1d/src/tlm1/uvm_analysis_port.svh Line: 114
+# ----------------------------------------------------------------
+# UVM-1.1d
+# (C) 2007-2013 Mentor Graphics Corporation
+# (C) 2007-2013 Cadence Design Systems, Inc.
+# (C) 2006-2013 Synopsys, Inc.
+# (C) 2011-2013 Cypress Semiconductor Corp.
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(277) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.3
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(278) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
+# UVM_INFO @ 0: reporter [RNTST] Running test my_test...
+# Build_phase, [test]
+# Build_phase, [env]
+# Build_phase, [Agt]
+# Build_phase, [Driver]
+# Build_phase, [Monitor]
+# Build_phase, [sequencer]
+# Build_phase, [scoreboard]
+# Build_phase, [subscriber]
+# Connect_phase, [Driver]
+# Connect_phase, [Monitor]
+# Connect_phase, [sequencer]
+# Connect_phase, [Agt]
+# Connect_phase, [scoreboard]
+# Connect_phase, [subscriber]
+# Connect_phase, [env]
+# Connect_phase, [test]
+# Run_phase, [test]
+# Run_phase, [env]
+# Run_phase, [subscriber]
+# Run_phase, [scoreboard]
+# Run_phase, [Agt]
+# Run_phase, [sequencer]
+# Run_phase, [Monitor]
+# Run_phase, [Driver]
+# Interface Data_in = [1e8a17a05b8dd457e932c8ee9708532c], key = [e6ca001988fd3266cebf1130ec89b61e]
+# Monitor sampled: out = [0e9b9ac7979c9e1c6880fc8c3a7d86e0]
+# scoreboard: in = [1e8a17a05b8dd457e932c8ee9708532c], key = [e6ca001988fd3266cebf1130ec89b61e]
+# SUCCESS , OUT IS 0e9b9ac7979c9e1c6880fc8c3a7d86e0 and EXP OUT IS 0e9b9ac7979c9e1c6880fc8c3a7d86e0 
+# subscriber: in=[1e8a17a05b8dd457e932c8ee9708532c],key=[e6ca001988fd3266cebf1130ec89b61e],out=[0e9b9ac7979c9e1c6880fc8c3a7d86e0]
+# Interface Data_in = [3ae4324986a13abde30e6d41582ec2b9], key = [711ae84dfd66daad39bce490eacf0e75]
+# Monitor sampled: out = [43dbbe63d521288297d8d0f79c6e9a6d]
+# scoreboard: in = [3ae4324986a13abde30e6d41582ec2b9], key = [711ae84dfd66daad39bce490eacf0e75]
+# SUCCESS , OUT IS 43dbbe63d521288297d8d0f79c6e9a6d and EXP OUT IS 43dbbe63d521288297d8d0f79c6e9a6d 
+# subscriber: in=[3ae4324986a13abde30e6d41582ec2b9],key=[711ae84dfd66daad39bce490eacf0e75],out=[43dbbe63d521288297d8d0f79c6e9a6d]
+# Interface Data_in = [84a62a7a0fbe201d1fe292525a595a4d], key = [0f8644064600295955720f8d94fda6ee]
+# Monitor sampled: out = [9e2bc3f8124be209eba601ce56e26a5e]
+# scoreboard: in = [84a62a7a0fbe201d1fe292525a595a4d], key = [0f8644064600295955720f8d94fda6ee]
+# SUCCESS , OUT IS 9e2bc3f8124be209eba601ce56e26a5e and EXP OUT IS 9e2bc3f8124be209eba601ce56e26a5e 
+# subscriber: in=[84a62a7a0fbe201d1fe292525a595a4d],key=[0f8644064600295955720f8d94fda6ee],out=[9e2bc3f8124be209eba601ce56e26a5e]
+# Interface Data_in = [2554eb2e42691bf4731c546131348b37], key = [f6454812c38fbc893f9595c6c1f6d793]
+# Monitor sampled: out = [ce8af3b6286904227a51ce09ded34484]
+# scoreboard: in = [2554eb2e42691bf4731c546131348b37], key = [f6454812c38fbc893f9595c6c1f6d793]
+# SUCCESS , OUT IS ce8af3b6286904227a51ce09ded34484 and EXP OUT IS ce8af3b6286904227a51ce09ded34484 
+# subscriber: in=[2554eb2e42691bf4731c546131348b37],key=[f6454812c38fbc893f9595c6c1f6d793],out=[ce8af3b6286904227a51ce09ded34484]
+# Interface Data_in = [e976ef91938e15770fa222fc4eab5382], key = [fb88cf74901c238ab20df2667c393958]
+# Monitor sampled: out = [b35cd34c7a26434bd3b51e6f100bd98d]
+# scoreboard: in = [e976ef91938e15770fa222fc4eab5382], key = [fb88cf74901c238ab20df2667c393958]
+# SUCCESS , OUT IS b35cd34c7a26434bd3b51e6f100bd98d and EXP OUT IS b35cd34c7a26434bd3b51e6f100bd98d 
+# subscriber: in=[e976ef91938e15770fa222fc4eab5382],key=[fb88cf74901c238ab20df2667c393958],out=[b35cd34c7a26434bd3b51e6f100bd98d]
+# Interface Data_in = [199fd5607c9849e5d30ba5f57bb25522], key = [1e2ae99d10a3131af79fe7069417ab3d]
+# Monitor sampled: out = [cca50224727936253fd5357d8e51b74c]
+# scoreboard: in = [199fd5607c9849e5d30ba5f57bb25522], key = [1e2ae99d10a3131af79fe7069417ab3d]
+# SUCCESS , OUT IS cca50224727936253fd5357d8e51b74c and EXP OUT IS cca50224727936253fd5357d8e51b74c 
+# subscriber: in=[199fd5607c9849e5d30ba5f57bb25522],key=[1e2ae99d10a3131af79fe7069417ab3d],out=[cca50224727936253fd5357d8e51b74c]
+# Interface Data_in = [28ef5bbdde887e3af1c85b6b83bb7287], key = [1646a37c86a0d746edfcea65284ba472]
+# Monitor sampled: out = [f1182b620e9646fa07e33aa212af7e8f]
+# scoreboard: in = [28ef5bbdde887e3af1c85b6b83bb7287], key = [1646a37c86a0d746edfcea65284ba472]
+# SUCCESS , OUT IS f1182b620e9646fa07e33aa212af7e8f and EXP OUT IS f1182b620e9646fa07e33aa212af7e8f 
+# subscriber: in=[28ef5bbdde887e3af1c85b6b83bb7287],key=[1646a37c86a0d746edfcea65284ba472],out=[f1182b620e9646fa07e33aa212af7e8f]
+# Interface Data_in = [625bafc94c96e723c76f787281e06f4d], key = [73a1389434337827f8961f7c3e3c4a70]
+# Monitor sampled: out = [2e76b11d6839ddb5650121e390680759]
+# scoreboard: in = [625bafc94c96e723c76f787281e06f4d], key = [73a1389434337827f8961f7c3e3c4a70]
+# SUCCESS , OUT IS 2e76b11d6839ddb5650121e390680759 and EXP OUT IS 2e76b11d6839ddb5650121e390680759 
+# subscriber: in=[625bafc94c96e723c76f787281e06f4d],key=[73a1389434337827f8961f7c3e3c4a70],out=[2e76b11d6839ddb5650121e390680759]
+# UVM_INFO verilog_src/uvm-1.1d/src/base/uvm_objection.svh(1267) @ 8: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :    4
+# UVM_WARNING :    0
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# [Questa UVM]     2
+# [RNTST]     1
+# [TEST_DONE]     1
+# ** Note: $finish    : /home/fares-sultan/Downloads/questasim/linux_x86_64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
+#    Time: 8 ns  Iteration: 60  Instance: /top_level
+# 1
+# Break in Task uvm_pkg/uvm_root::run_test at /home/fares-sultan/Downloads/questasim/linux_x86_64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh line 430
+do test_bench/run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# QuestaSim-64 vlog 2021.2_1 Compiler 2021.05 May 15 2021
+# Start time: 15:52:31 on Dec 01,2025
+# vlog -reportprogress 300 AES_Verilog_main/AES.v AES_Verilog_main/AES_Decrypt.v AES_Verilog_main/AES_Decrypt_tb.v AES_Verilog_main/AES_Encrypt.v AES_Verilog_main/AES_Encrypt_tb.v AES_Verilog_main/AES_tb.v AES_Verilog_main/addRoundKey.v AES_Verilog_main/addRoundKey_tb.v AES_Verilog_main/decryptRound.v AES_Verilog_main/encryptRound.v AES_Verilog_main/inverseMixColumns.v AES_Verilog_main/inverseMixColumns_tb.v AES_Verilog_main/inverseSbox.v AES_Verilog_main/inverseShiftRows.v AES_Verilog_main/inverseShiftRows_tb.v AES_Verilog_main/inverseSubBytes.v AES_Verilog_main/inverseSubBytes_tb.v AES_Verilog_main/keyExpansion.v AES_Verilog_main/keyExpansion_tb.v AES_Verilog_main/mixColumns.v AES_Verilog_main/mixColumns_tb.v AES_Verilog_main/sbox.v AES_Verilog_main/shiftRows.v AES_Verilog_main/shiftRows_tb.v AES_Verilog_main/subBytes.v AES_Verilog_main/subBytes_tb.v 
+# -- Compiling module AES
+# -- Compiling module AES_Decrypt
+# -- Compiling module AES_Decrypt_tb
+# -- Compiling module AES_Encrypt
+# -- Compiling module AES_Encrypt_tb
+# -- Compiling module AES_tb
+# -- Compiling module addRoundKey
+# -- Compiling module addRoundKey_tb
+# -- Compiling module decryptRound
+# -- Compiling module encryptRound
+# -- Compiling module inverseMixColumns
+# -- Compiling module inverseMixColumns_tb
+# -- Compiling module inverseSbox
+# -- Compiling module inverseShiftRows
+# -- Compiling module inverseShiftRows_tb
+# -- Compiling module inverseSubBytes
+# -- Compiling module inverseSubBytes_tb
+# -- Compiling module keyExpansion
+# -- Compiling module keyExpansion_tb
+# -- Compiling module mixColumns
+# -- Compiling module mixColumns_tb
+# -- Compiling module sbox
+# -- Compiling module shiftRows
+# -- Compiling module shiftRows_tb
+# -- Compiling module subBytes
+# -- Compiling module subBytes_tb
+# 
+# Top level modules:
+# 	AES_Decrypt_tb
+# 	AES_Encrypt_tb
+# 	AES_tb
+# 	addRoundKey_tb
+# 	inverseMixColumns_tb
+# 	inverseShiftRows_tb
+# 	inverseSubBytes_tb
+# 	keyExpansion_tb
+# 	mixColumns_tb
+# 	shiftRows_tb
+# 	subBytes_tb
+# End time: 15:52:31 on Dec 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.2_1 Compiler 2021.05 May 15 2021
+# Start time: 15:52:31 on Dec 01,2025
+# vlog -reportprogress 300 test_bench/pack1.sv test_bench/top.sv 
+# -- Compiling interface AES_intf
+# -- Compiling package pack1
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+# ** Note: (vlog-2286) test_bench/pack1.sv(26): Using implicit +incdir+/home/fares-sultan/Downloads/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+# -- Compiling module top_level
+# -- Importing package pack1
+# 
+# Top level modules:
+# 	top_level
+# End time: 15:52:32 on Dec 01,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 15:52:39 on Dec 01,2025, Elapsed time: 0:01:47
+# Errors: 0, Warnings: 2
+# vsim -voptargs="+acc" work.top_level 
+# Start time: 15:52:39 on Dec 01,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.AES_intf(fast)
+# Loading mtiUvm.uvm_pkg(fast)
+# Loading work.pack1(fast)
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ns  Iteration: 0  Region: /pack1::my_scoreboard::write File: test_bench/pack1.sv Line: 280
+# Loading mtiUvm.questa_uvm_pkg(fast)
+# Loading work.top_level(fast)
+# Loading work.AES_intf(fast__2)
+# Loading work.AES_Encrypt(fast)
+# Loading work.keyExpansion(fast)
+# Loading work.addRoundKey(fast)
+# Loading work.encryptRound(fast)
+# Loading work.subBytes(fast)
+# Loading work.sbox(fast)
+# Loading work.shiftRows(fast)
+# Loading work.mixColumns(fast)
+# Loading /home/fares-sultan/Downloads/questasim/uvm-1.1d/linux_x86_64/uvm_dpi.so
+# ** Warning: (vsim-8806) Task "write" is being called in function "write".
+#    Time: 0 ns  Iteration: 0  Instance: /top_level File: /home/fares-sultan/Downloads/questasim/linux_x86_64/../verilog_src/uvm-1.1d/src/tlm1/uvm_analysis_port.svh Line: 114
+# ----------------------------------------------------------------
+# UVM-1.1d
+# (C) 2007-2013 Mentor Graphics Corporation
+# (C) 2007-2013 Cadence Design Systems, Inc.
+# (C) 2006-2013 Synopsys, Inc.
+# (C) 2011-2013 Cypress Semiconductor Corp.
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(277) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.3
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(278) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
+# UVM_INFO @ 0: reporter [RNTST] Running test my_test...
+# Build_phase, [test]
+# Build_phase, [env]
+# Build_phase, [Agt]
+# Build_phase, [Driver]
+# Build_phase, [Monitor]
+# Build_phase, [sequencer]
+# Build_phase, [scoreboard]
+# Build_phase, [subscriber]
+# Connect_phase, [Driver]
+# Connect_phase, [Monitor]
+# Connect_phase, [sequencer]
+# Connect_phase, [Agt]
+# Connect_phase, [scoreboard]
+# Connect_phase, [subscriber]
+# Connect_phase, [env]
+# Connect_phase, [test]
+# Run_phase, [test]
+# Run_phase, [env]
+# Run_phase, [subscriber]
+# Run_phase, [scoreboard]
+# Run_phase, [Agt]
+# Run_phase, [sequencer]
+# Run_phase, [Monitor]
+# Run_phase, [Driver]
+# Interface Data_in = [1e8a17a05b8dd457e932c8ee9708532c], key = [e6ca001988fd3266cebf1130ec89b61e]
+# Monitor sampled: out = [0e9b9ac7979c9e1c6880fc8c3a7d86e0]
+# scoreboard: in = [1e8a17a05b8dd457e932c8ee9708532c], key = [e6ca001988fd3266cebf1130ec89b61e]
+# SUCCESS , OUT IS 0e9b9ac7979c9e1c6880fc8c3a7d86e0 and EXP OUT IS 0e9b9ac7979c9e1c6880fc8c3a7d86e0 
+# subscriber: in=[1e8a17a05b8dd457e932c8ee9708532c],key=[e6ca001988fd3266cebf1130ec89b61e],out=[0e9b9ac7979c9e1c6880fc8c3a7d86e0]
+# Interface Data_in = [3ae4324986a13abde30e6d41582ec2b9], key = [711ae84dfd66daad39bce490eacf0e75]
+# Monitor sampled: out = [43dbbe63d521288297d8d0f79c6e9a6d]
+# scoreboard: in = [3ae4324986a13abde30e6d41582ec2b9], key = [711ae84dfd66daad39bce490eacf0e75]
+# SUCCESS , OUT IS 43dbbe63d521288297d8d0f79c6e9a6d and EXP OUT IS 43dbbe63d521288297d8d0f79c6e9a6d 
+# subscriber: in=[3ae4324986a13abde30e6d41582ec2b9],key=[711ae84dfd66daad39bce490eacf0e75],out=[43dbbe63d521288297d8d0f79c6e9a6d]
+# Interface Data_in = [84a62a7a0fbe201d1fe292525a595a4d], key = [0f8644064600295955720f8d94fda6ee]
+# Monitor sampled: out = [9e2bc3f8124be209eba601ce56e26a5e]
+# scoreboard: in = [84a62a7a0fbe201d1fe292525a595a4d], key = [0f8644064600295955720f8d94fda6ee]
+# SUCCESS , OUT IS 9e2bc3f8124be209eba601ce56e26a5e and EXP OUT IS 9e2bc3f8124be209eba601ce56e26a5e 
+# subscriber: in=[84a62a7a0fbe201d1fe292525a595a4d],key=[0f8644064600295955720f8d94fda6ee],out=[9e2bc3f8124be209eba601ce56e26a5e]
+# Interface Data_in = [2554eb2e42691bf4731c546131348b37], key = [f6454812c38fbc893f9595c6c1f6d793]
+# Monitor sampled: out = [ce8af3b6286904227a51ce09ded34484]
+# scoreboard: in = [2554eb2e42691bf4731c546131348b37], key = [f6454812c38fbc893f9595c6c1f6d793]
+# SUCCESS , OUT IS ce8af3b6286904227a51ce09ded34484 and EXP OUT IS ce8af3b6286904227a51ce09ded34484 
+# subscriber: in=[2554eb2e42691bf4731c546131348b37],key=[f6454812c38fbc893f9595c6c1f6d793],out=[ce8af3b6286904227a51ce09ded34484]
+# Interface Data_in = [e976ef91938e15770fa222fc4eab5382], key = [fb88cf74901c238ab20df2667c393958]
+# Monitor sampled: out = [b35cd34c7a26434bd3b51e6f100bd98d]
+# scoreboard: in = [e976ef91938e15770fa222fc4eab5382], key = [fb88cf74901c238ab20df2667c393958]
+# SUCCESS , OUT IS b35cd34c7a26434bd3b51e6f100bd98d and EXP OUT IS b35cd34c7a26434bd3b51e6f100bd98d 
+# subscriber: in=[e976ef91938e15770fa222fc4eab5382],key=[fb88cf74901c238ab20df2667c393958],out=[b35cd34c7a26434bd3b51e6f100bd98d]
+# Interface Data_in = [199fd5607c9849e5d30ba5f57bb25522], key = [1e2ae99d10a3131af79fe7069417ab3d]
+# Monitor sampled: out = [cca50224727936253fd5357d8e51b74c]
+# scoreboard: in = [199fd5607c9849e5d30ba5f57bb25522], key = [1e2ae99d10a3131af79fe7069417ab3d]
+# SUCCESS , OUT IS cca50224727936253fd5357d8e51b74c and EXP OUT IS cca50224727936253fd5357d8e51b74c 
+# subscriber: in=[199fd5607c9849e5d30ba5f57bb25522],key=[1e2ae99d10a3131af79fe7069417ab3d],out=[cca50224727936253fd5357d8e51b74c]
+# Interface Data_in = [28ef5bbdde887e3af1c85b6b83bb7287], key = [1646a37c86a0d746edfcea65284ba472]
+# Monitor sampled: out = [f1182b620e9646fa07e33aa212af7e8f]
+# scoreboard: in = [28ef5bbdde887e3af1c85b6b83bb7287], key = [1646a37c86a0d746edfcea65284ba472]
+# SUCCESS , OUT IS f1182b620e9646fa07e33aa212af7e8f and EXP OUT IS f1182b620e9646fa07e33aa212af7e8f 
+# subscriber: in=[28ef5bbdde887e3af1c85b6b83bb7287],key=[1646a37c86a0d746edfcea65284ba472],out=[f1182b620e9646fa07e33aa212af7e8f]
+# Interface Data_in = [625bafc94c96e723c76f787281e06f4d], key = [73a1389434337827f8961f7c3e3c4a70]
+# Monitor sampled: out = [2e76b11d6839ddb5650121e390680759]
+# scoreboard: in = [625bafc94c96e723c76f787281e06f4d], key = [73a1389434337827f8961f7c3e3c4a70]
+# SUCCESS , OUT IS 2e76b11d6839ddb5650121e390680759 and EXP OUT IS 2e76b11d6839ddb5650121e390680759 
+# subscriber: in=[625bafc94c96e723c76f787281e06f4d],key=[73a1389434337827f8961f7c3e3c4a70],out=[2e76b11d6839ddb5650121e390680759]
+# UVM_INFO verilog_src/uvm-1.1d/src/base/uvm_objection.svh(1267) @ 8: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :    4
+# UVM_WARNING :    0
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# [Questa UVM]     2
+# [RNTST]     1
+# [TEST_DONE]     1
+# ** Note: $finish    : /home/fares-sultan/Downloads/questasim/linux_x86_64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
+#    Time: 8 ns  Iteration: 60  Instance: /top_level
+# 1
+# Break in Task uvm_pkg/uvm_root::run_test at /home/fares-sultan/Downloads/questasim/linux_x86_64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh line 430

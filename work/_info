@@ -21,6 +21,8 @@ R0
 R0
 R0
 R0
+R0
+R0
 !s11f vlog 2021.2_1 2021.05, May 15 2021
 13
 !s112 1.1
@@ -31,17 +33,17 @@ cModel Technology
 Z1 d/home/fares-sultan/Projects/AES_Verification_UVM
 T_opt
 !s11d pack1 /home/fares-sultan/Projects/AES_Verification_UVM/work 1 AES_intf 1 /home/fares-sultan/Projects/AES_Verification_UVM/work 
-!s110 1764596290
-VR6NJH@o]e53HX1DVWjGZ^3
+!s110 1764597160
+VLHfPOR0YSH67<1A_JC;bb1
 04 9 4 work top_level fast 0
-=1-000ae431a4f1-692d9a41-b4c41-666a
+=1-000ae431a4f1-692d9da7-5f791-6d6a
 !s124 OEM100
 o-quiet -auto_acc_if_foreign -work work +acc
 Z2 tCvgOpt 0
 n@_opt
 OL;O;2021.2_1;73
 vaddRoundKey
-Z3 !s110 1764596285
+Z3 !s110 1764597151
 !i10b 1
 !s100 d`HRYFcN:zRiKZ4M[i@4g0
 ID`NgWhWLU[_@HBY^aXKFh1
@@ -49,14 +51,14 @@ R1
 Z4 w1659297488
 8AES_Verilog_main/addRoundKey.v
 FAES_Verilog_main/addRoundKey.v
-!i122 56
+!i122 64
 L0 1 9
 Z5 VDg1SIo80bB@j0V0VzS_@n1
 Z6 OL;L;2021.2_1;73
 r1
 !s85 0
 31
-Z7 !s108 1764596285.000000
+Z7 !s108 1764597151.000000
 Z8 !s107 AES_Verilog_main/subBytes_tb.v|AES_Verilog_main/subBytes.v|AES_Verilog_main/shiftRows_tb.v|AES_Verilog_main/shiftRows.v|AES_Verilog_main/sbox.v|AES_Verilog_main/mixColumns_tb.v|AES_Verilog_main/mixColumns.v|AES_Verilog_main/keyExpansion_tb.v|AES_Verilog_main/keyExpansion.v|AES_Verilog_main/inverseSubBytes_tb.v|AES_Verilog_main/inverseSubBytes.v|AES_Verilog_main/inverseShiftRows_tb.v|AES_Verilog_main/inverseShiftRows.v|AES_Verilog_main/inverseSbox.v|AES_Verilog_main/inverseMixColumns_tb.v|AES_Verilog_main/inverseMixColumns.v|AES_Verilog_main/encryptRound.v|AES_Verilog_main/decryptRound.v|AES_Verilog_main/addRoundKey_tb.v|AES_Verilog_main/addRoundKey.v|AES_Verilog_main/AES_tb.v|AES_Verilog_main/AES_Encrypt_tb.v|AES_Verilog_main/AES_Encrypt.v|AES_Verilog_main/AES_Decrypt_tb.v|AES_Verilog_main/AES_Decrypt.v|AES_Verilog_main/AES.v|
 Z9 !s90 -reportprogress|300|AES_Verilog_main/AES.v|AES_Verilog_main/AES_Decrypt.v|AES_Verilog_main/AES_Decrypt_tb.v|AES_Verilog_main/AES_Encrypt.v|AES_Verilog_main/AES_Encrypt_tb.v|AES_Verilog_main/AES_tb.v|AES_Verilog_main/addRoundKey.v|AES_Verilog_main/addRoundKey_tb.v|AES_Verilog_main/decryptRound.v|AES_Verilog_main/encryptRound.v|AES_Verilog_main/inverseMixColumns.v|AES_Verilog_main/inverseMixColumns_tb.v|AES_Verilog_main/inverseSbox.v|AES_Verilog_main/inverseShiftRows.v|AES_Verilog_main/inverseShiftRows_tb.v|AES_Verilog_main/inverseSubBytes.v|AES_Verilog_main/inverseSubBytes_tb.v|AES_Verilog_main/keyExpansion.v|AES_Verilog_main/keyExpansion_tb.v|AES_Verilog_main/mixColumns.v|AES_Verilog_main/mixColumns_tb.v|AES_Verilog_main/sbox.v|AES_Verilog_main/shiftRows.v|AES_Verilog_main/shiftRows_tb.v|AES_Verilog_main/subBytes.v|AES_Verilog_main/subBytes_tb.v|
 !i113 0
@@ -72,7 +74,7 @@ R1
 R4
 8AES_Verilog_main/addRoundKey_tb.v
 FAES_Verilog_main/addRoundKey_tb.v
-!i122 56
+!i122 64
 L0 1 16
 R5
 R6
@@ -95,7 +97,7 @@ R1
 R4
 8AES_Verilog_main/AES.v
 FAES_Verilog_main/AES.v
-!i122 56
+!i122 64
 L0 1 50
 R5
 R6
@@ -118,7 +120,7 @@ R1
 R4
 8AES_Verilog_main/AES_Decrypt.v
 FAES_Verilog_main/AES_Decrypt.v
-!i122 56
+!i122 64
 Z11 L0 1 27
 R5
 R6
@@ -141,7 +143,7 @@ R1
 R4
 8AES_Verilog_main/AES_Decrypt_tb.v
 FAES_Verilog_main/AES_Decrypt_tb.v
-!i122 56
+!i122 64
 Z12 L0 1 34
 R5
 R6
@@ -164,7 +166,7 @@ R1
 R4
 8AES_Verilog_main/AES_Encrypt.v
 FAES_Verilog_main/AES_Encrypt.v
-!i122 56
+!i122 64
 R11
 R5
 R6
@@ -187,7 +189,7 @@ R1
 R4
 8AES_Verilog_main/AES_Encrypt_tb.v
 FAES_Verilog_main/AES_Encrypt_tb.v
-!i122 56
+!i122 64
 R12
 R5
 R6
@@ -203,25 +205,25 @@ R2
 n@a@e@s_@encrypt_tb
 YAES_intf
 Z13 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
-Z14 !s110 1764596286
+R3
 !i10b 1
-!s100 `Z8KNIiGBljRJl1K1gBb01
-IP<KOT8B:nAmBMQMcWI6Wf3
+!s100 8WcR;j`_]QFngB`fYWKRU2
+I9SA9?gdGCbF1dfni`IFF01
 S1
 R1
-Z15 w1764596281
-Z16 8test_bench/pack1.sv
-Z17 Ftest_bench/pack1.sv
-!i122 57
+Z14 w1764597147
+Z15 8test_bench/pack1.sv
+Z16 Ftest_bench/pack1.sv
+!i122 65
 L0 3 0
 R5
 R6
 r1
 !s85 0
 31
-Z18 !s108 1764596286.000000
-Z19 !s107 /home/fares-sultan/Downloads/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh|/home/fares-sultan/Downloads/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh|/home/fares-sultan/Downloads/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh|/home/fares-sultan/Downloads/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh|/home/fares-sultan/Downloads/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh|/home/fares-sultan/Downloads/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh|/home/fares-sultan/Downloads/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh|/home/fares-sultan/Downloads/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh|/home/fares-sultan/Downloads/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh|/home/fares-sultan/Downloads/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh|/home/fares-sultan/Downloads/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh|/home/fares-sultan/Downloads/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh|test_bench/top.sv|test_bench/pack1.sv|
-Z20 !s90 -reportprogress|300|test_bench/pack1.sv|test_bench/top.sv|
+R7
+Z17 !s107 /home/fares-sultan/Downloads/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh|/home/fares-sultan/Downloads/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh|/home/fares-sultan/Downloads/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh|/home/fares-sultan/Downloads/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh|/home/fares-sultan/Downloads/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh|/home/fares-sultan/Downloads/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh|/home/fares-sultan/Downloads/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh|/home/fares-sultan/Downloads/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh|/home/fares-sultan/Downloads/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh|/home/fares-sultan/Downloads/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh|/home/fares-sultan/Downloads/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh|/home/fares-sultan/Downloads/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh|test_bench/top.sv|test_bench/pack1.sv|
+Z18 !s90 -reportprogress|300|test_bench/pack1.sv|test_bench/top.sv|
 !i113 0
 R10
 R2
@@ -235,7 +237,7 @@ R1
 R4
 8AES_Verilog_main/AES_tb.v
 FAES_Verilog_main/AES_tb.v
-!i122 56
+!i122 64
 L0 1 30
 R5
 R6
@@ -258,8 +260,8 @@ R1
 R4
 8AES_Verilog_main/decryptRound.v
 FAES_Verilog_main/decryptRound.v
-!i122 56
-Z21 L0 1 15
+!i122 64
+Z19 L0 1 15
 R5
 R6
 r1
@@ -281,8 +283,8 @@ R1
 R4
 8AES_Verilog_main/encryptRound.v
 FAES_Verilog_main/encryptRound.v
-!i122 56
-R21
+!i122 64
+R19
 R5
 R6
 r1
@@ -304,7 +306,7 @@ R1
 R4
 8AES_Verilog_main/inverseMixColumns.v
 FAES_Verilog_main/inverseMixColumns.v
-!i122 56
+!i122 64
 L0 1 95
 R5
 R6
@@ -327,8 +329,8 @@ R1
 R4
 8AES_Verilog_main/inverseMixColumns_tb.v
 FAES_Verilog_main/inverseMixColumns_tb.v
-!i122 56
-Z22 L0 1 19
+!i122 64
+Z20 L0 1 19
 R5
 R6
 r1
@@ -350,7 +352,7 @@ R1
 R4
 8AES_Verilog_main/inverseSbox.v
 FAES_Verilog_main/inverseSbox.v
-!i122 56
+!i122 64
 L0 1 267
 R5
 R6
@@ -373,8 +375,8 @@ R1
 R4
 8AES_Verilog_main/inverseShiftRows.v
 FAES_Verilog_main/inverseShiftRows.v
-!i122 56
-Z23 L0 1 29
+!i122 64
+Z21 L0 1 29
 R5
 R6
 r1
@@ -396,7 +398,7 @@ R1
 R4
 8AES_Verilog_main/inverseShiftRows_tb.v
 FAES_Verilog_main/inverseShiftRows_tb.v
-!i122 56
+!i122 64
 L0 1 14
 R5
 R6
@@ -419,8 +421,8 @@ R1
 R4
 8AES_Verilog_main/inverseSubBytes.v
 FAES_Verilog_main/inverseSubBytes.v
-!i122 56
-Z24 L0 1 13
+!i122 64
+Z22 L0 1 13
 R5
 R6
 r1
@@ -442,8 +444,8 @@ R1
 R4
 8AES_Verilog_main/inverseSubBytes_tb.v
 FAES_Verilog_main/inverseSubBytes_tb.v
-!i122 56
-R21
+!i122 64
+R19
 R5
 R6
 r1
@@ -465,7 +467,7 @@ R1
 R4
 8AES_Verilog_main/keyExpansion.v
 FAES_Verilog_main/keyExpansion.v
-!i122 56
+!i122 64
 L0 1 384
 R5
 R6
@@ -488,8 +490,8 @@ R1
 R4
 8AES_Verilog_main/keyExpansion_tb.v
 FAES_Verilog_main/keyExpansion_tb.v
-!i122 56
-R22
+!i122 64
+R20
 R5
 R6
 r1
@@ -511,7 +513,7 @@ R1
 R4
 8AES_Verilog_main/mixColumns.v
 FAES_Verilog_main/mixColumns.v
-!i122 56
+!i122 64
 L0 1 48
 R5
 R6
@@ -534,8 +536,8 @@ R1
 R4
 8AES_Verilog_main/mixColumns_tb.v
 FAES_Verilog_main/mixColumns_tb.v
-!i122 56
-R22
+!i122 64
+R20
 R5
 R6
 r1
@@ -551,16 +553,16 @@ nmix@columns_tb
 Xpack1
 !s115 AES_intf
 R13
-Z25 DXx6 mtiUvm 7 uvm_pkg 0 22 8V[`8]Q0W57le7Z>zYaAj1
-R14
+Z23 DXx6 mtiUvm 7 uvm_pkg 0 22 8V[`8]Q0W57le7Z>zYaAj1
+Z24 !s110 1764597152
 !i10b 1
-!s100 `L1LDZgX5Ie7cTm?3CjAj2
-Ie16F_HQdblUcQMbNcR_=b1
+!s100 ??O@95A3WF:f;>@ellX>_0
+IWkL]gOggc42;]0=K1MOXB2
 S1
 R1
+R14
 R15
 R16
-R17
 F/home/fares-sultan/Downloads/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh
 F/home/fares-sultan/Downloads/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh
 F/home/fares-sultan/Downloads/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh
@@ -573,16 +575,16 @@ F/home/fares-sultan/Downloads/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/mac
 F/home/fares-sultan/Downloads/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh
 F/home/fares-sultan/Downloads/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh
 F/home/fares-sultan/Downloads/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh
-!i122 57
-L0 19 0
-Ve16F_HQdblUcQMbNcR_=b1
+!i122 65
+L0 24 0
+VWkL]gOggc42;]0=K1MOXB2
 R6
 r1
 !s85 0
 31
+R7
+R17
 R18
-R19
-R20
 !i113 0
 R10
 R2
@@ -595,7 +597,7 @@ R1
 R4
 8AES_Verilog_main/sbox.v
 FAES_Verilog_main/sbox.v
-!i122 56
+!i122 64
 L0 1 269
 R5
 R6
@@ -617,8 +619,8 @@ R1
 R4
 8AES_Verilog_main/shiftRows.v
 FAES_Verilog_main/shiftRows.v
-!i122 56
-R23
+!i122 64
+R21
 R5
 R6
 r1
@@ -640,7 +642,7 @@ R1
 R4
 8AES_Verilog_main/shiftRows_tb.v
 FAES_Verilog_main/shiftRows_tb.v
-!i122 56
+!i122 64
 L0 1 18
 R5
 R6
@@ -663,8 +665,8 @@ R1
 R4
 8AES_Verilog_main/subBytes.v
 FAES_Verilog_main/subBytes.v
-!i122 56
-R24
+!i122 64
+R22
 R5
 R6
 r1
@@ -686,7 +688,7 @@ R1
 R4
 8AES_Verilog_main/subBytes_tb.v
 FAES_Verilog_main/subBytes_tb.v
-!i122 56
+!i122 64
 L0 1 17
 R5
 R6
@@ -702,27 +704,27 @@ R2
 nsub@bytes_tb
 vtop_level
 R13
-R25
-DXx4 work 5 pack1 0 22 e16F_HQdblUcQMbNcR_=b1
-R14
+R23
+DXx4 work 5 pack1 0 22 WkL]gOggc42;]0=K1MOXB2
+R24
 !i10b 1
 !s100 4R6PMhOg<:1hiKOI1N4c31
 IP?K2?_>GP6M[7?YnQC<[[2
 S1
 R1
-w1764588114
+w1764597042
 8test_bench/top.sv
 Ftest_bench/top.sv
-!i122 57
+!i122 65
 L0 2 13
 R5
 R6
 r1
 !s85 0
 31
+R7
+R17
 R18
-R19
-R20
 !i113 0
 R10
 R2

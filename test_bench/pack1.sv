@@ -5,15 +5,20 @@ interface AES_intf;
     logic [127:0] key;
     logic [127:0] out;
 
-    // modport DUT (
-    // input in,key,
-    // output out
-    // );
+    modport DUT(
+    input in,key,
+    output out
+    );
 
-    // modport tb (
-    // output in,key,
-    // output out
-    // );
+    modport tb(
+    output in,key,
+    output out
+    );
+
+    modport mon(
+    output in,key,
+    output out
+    );
 endinterface
 
 package pack1;
@@ -78,7 +83,7 @@ package pack1;
     class my_driver extends uvm_driver #(my_sequence_item);
         `uvm_component_utils(my_driver)
         my_sequence_item seq_item;
-        virtual AES_intf vin_drvr;
+        virtual AES_intf.tb vin_drvr;
         
         function new(string name = "my_driver", uvm_component parent = null);
             super.new(name,parent);
@@ -118,7 +123,7 @@ package pack1;
     class my_monitor extends uvm_monitor;
         `uvm_component_utils(my_monitor)
         my_sequence_item seq_item;
-        virtual AES_intf vin_mon;
+        virtual AES_intf.mon vin_mon;
         uvm_analysis_port#(my_sequence_item) my_analysis_port;
 
         function new(string name = "my_monitor", uvm_component parent = null);
